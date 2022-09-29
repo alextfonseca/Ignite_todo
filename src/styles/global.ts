@@ -26,4 +26,13 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-size: 1rem;
   } 
+
+  button{
+    transition: all .3s;
+    cursor: pointer;
+  }
+
+  .completed{
+    text-decoration: line-through;
+  }
 `;
